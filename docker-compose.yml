@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  flask-for-webhook:
+    build:
+      context: .
+    image: "flask-webhook-image"
+    ports:
+      - "5000:5000"
