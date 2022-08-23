@@ -2,9 +2,16 @@ from flask import Flask
 from flask import jsonify
 app = Flask(__name__)
 
+@app.route('/')
+def index():
+    return '''
+    GET /hello
+    POST /test-webhook
+    '''
+
 @app.route('/hello')
 def hello():
-     return 'API to post: /test-webhook'
+     return 'Hello!'
 
 
 @app.route('/test-webhook', methods = ['POST']) 
