@@ -11,4 +11,6 @@ List of endpoints:
 
 
 To bring up the service:
-`docker-compose up -d`
+1. clone the repo : `gh repo clone debaditya-mohankudo/test-webhook`
+2. `cd test-webhook`
+3. Run the command `docker-compose up -d`
