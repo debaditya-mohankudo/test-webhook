@@ -2,6 +2,8 @@
 
 ### dockerize a basic flask app
 
+base url : localhost:5000
+
 List of endpoints:
 1. GET \
 2. GET \hello
